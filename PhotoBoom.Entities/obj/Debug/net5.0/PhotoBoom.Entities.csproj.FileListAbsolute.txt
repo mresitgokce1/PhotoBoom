@@ -1,0 +1,12 @@
+C:\Users\mrgok\source\repos\PhotoBoom\PhotoBoom.Entities\bin\Debug\net5.0\PhotoBoom.Entities.deps.json
+C:\Users\mrgok\source\repos\PhotoBoom\PhotoBoom.Entities\bin\Debug\net5.0\PhotoBoom.Entities.dll
+C:\Users\mrgok\source\repos\PhotoBoom\PhotoBoom.Entities\bin\Debug\net5.0\ref\PhotoBoom.Entities.dll
+C:\Users\mrgok\source\repos\PhotoBoom\PhotoBoom.Entities\bin\Debug\net5.0\PhotoBoom.Entities.pdb
+C:\Users\mrgok\source\repos\PhotoBoom\PhotoBoom.Entities\obj\Debug\net5.0\PhotoBoom.Entities.csproj.AssemblyReference.cache
+C:\Users\mrgok\source\repos\PhotoBoom\PhotoBoom.Entities\obj\Debug\net5.0\PhotoBoom.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mrgok\source\repos\PhotoBoom\PhotoBoom.Entities\obj\Debug\net5.0\PhotoBoom.Entities.AssemblyInfoInputs.cache
+C:\Users\mrgok\source\repos\PhotoBoom\PhotoBoom.Entities\obj\Debug\net5.0\PhotoBoom.Entities.AssemblyInfo.cs
+C:\Users\mrgok\source\repos\PhotoBoom\PhotoBoom.Entities\obj\Debug\net5.0\PhotoBoom.Entities.csproj.CoreCompileInputs.cache
+C:\Users\mrgok\source\repos\PhotoBoom\PhotoBoom.Entities\obj\Debug\net5.0\PhotoBoom.Entities.dll
+C:\Users\mrgok\source\repos\PhotoBoom\PhotoBoom.Entities\obj\Debug\net5.0\ref\PhotoBoom.Entities.dll
+C:\Users\mrgok\source\repos\PhotoBoom\PhotoBoom.Entities\obj\Debug\net5.0\PhotoBoom.Entities.pdb
