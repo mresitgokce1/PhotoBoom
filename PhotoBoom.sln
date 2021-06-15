@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhotoBoom.Entities", "Photo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhotoBoom.DataAccess", "PhotoBoom.DataAccess\PhotoBoom.DataAccess.csproj", "{3C22D325-F980-44A3-B021-E2C954F9BECE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoBoom.Business", "PhotoBoom.Business\PhotoBoom.Business.csproj", "{66572F7A-6140-48EA-BC1A-E45C78B71EF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhotoBoom.Business", "PhotoBoom.Business\PhotoBoom.Business.csproj", "{66572F7A-6140-48EA-BC1A-E45C78B71EF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoBoom.API", "PhotoBoom.API\PhotoBoom.API.csproj", "{2C66CF72-0D1A-406E-A390-CC08EDF4C922}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{66572F7A-6140-48EA-BC1A-E45C78B71EF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66572F7A-6140-48EA-BC1A-E45C78B71EF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66572F7A-6140-48EA-BC1A-E45C78B71EF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C66CF72-0D1A-406E-A390-CC08EDF4C922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C66CF72-0D1A-406E-A390-CC08EDF4C922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C66CF72-0D1A-406E-A390-CC08EDF4C922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C66CF72-0D1A-406E-A390-CC08EDF4C922}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

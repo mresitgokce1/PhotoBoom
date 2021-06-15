@@ -14,9 +14,9 @@ namespace PhotoBoom.Business.Concrete
     {
         private IPhotoRepository _photoRepository;
 
-        public PhotoManager()
+        public PhotoManager(IPhotoRepository photoRepository)
         {
-            _photoRepository = new PhotoRepository();
+            _photoRepository = photoRepository;
         }
         public Photo CreatePhoto(Photo photo)
         {

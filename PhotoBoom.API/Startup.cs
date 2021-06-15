@@ -30,6 +30,9 @@ namespace PhotoBoom.API
             services.AddControllers();
             services.AddSingleton<IPhotoService, PhotoManager>();
             services.AddSingleton<IPhotoRepository, PhotoRepository>();
+            services.AddCors(options =>
+                options.AddDefaultPolicy(builder =>
+                    builder.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin()));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -43,6 +46,8 @@ namespace PhotoBoom.API
             {
                 app.UseExceptionHandler("/Error");
             }
+
+            app.UseCors();
 
             app.UseStaticFiles();
 

@@ -7,12 +7,12 @@ using PhotoBoom.Entities;
 
 namespace PhotoBoom.DataAccess.Abstract
 {
-    interface IPhotoRepository
+    public interface IPhotoRepository
     {
         List<Photo> GetAllPhotos();
         Photo GetPhotoById(int id);
-        Photo CreateHotel(Photo photo);
-        Photo Update(Photo photo);
-        void Delete(int id);
+        Photo CreatePhoto(Photo photo);
+        Photo UpdatePhoto(Photo photo);
+        void DeletePhoto(int id);
     }
 }

@@ -8,9 +8,9 @@ using PhotoBoom.Entities;
 
 namespace PhotoBoom.DataAccess.Concrete
 {
-    class PhotoRepository : IPhotoRepository
+    public class PhotoRepository : IPhotoRepository
     {
-        public Photo CreateHotel(Photo photo)
+        public Photo CreatePhoto(Photo photo)
         {
             using var photoDbContext = new PhotoBoomDbContext();
             photoDbContext.Photos.Add(photo);
@@ -18,7 +18,7 @@ namespace PhotoBoom.DataAccess.Concrete
             return photo;
         }
 
-        public void Delete(int id)
+        public void DeletePhoto(int id)
         {
             using var photoDbContext = new PhotoBoomDbContext();
             var deletePhoto = GetPhotoById(id);
@@ -38,10 +38,11 @@ namespace PhotoBoom.DataAccess.Concrete
             return photoDbContext.Photos.Find(id);
         }
 
-        public Photo Update(Photo photo)
+        public Photo UpdatePhoto(Photo photo)
         {
             using var photoDbContext = new PhotoBoomDbContext();
             photoDbContext.Photos.Update(photo);
+            photoDbContext.SaveChanges();
             return photo;
         }
     }
