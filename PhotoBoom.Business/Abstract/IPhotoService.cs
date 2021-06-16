@@ -12,7 +12,6 @@ namespace PhotoBoom.Business.Abstract
         List<Photo> GetAllPhotos();
         Photo GetHotelById(int id);
         Photo CreatePhoto(Photo photo);
-        Photo UpdatePhoto(Photo photo);
         void DeletePhoto(int id);
     }
 }

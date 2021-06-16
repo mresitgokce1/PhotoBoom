@@ -44,26 +44,18 @@ namespace PhotoBoom.API.Controllers
 
             var path = Path.Combine(_env.WebRootPath, "Images", imageName);
 
-            using (var stream = new FileStream(path, FileMode.Create))
+            using var stream = new FileStream(path, FileMode.Create);
+            Photos.CopyTo(stream);
+
+            Photo pht = new Photo
             {
-                Photos.CopyTo(stream);
+                Title = Title,
+                Tags = Tags,
+                Photos = imageName
+            };
+            return _photoService.CreatePhoto(pht);
 
-                Photo pht = new Photo
-                {
-                    Title = Title,
-                    Tags = Tags,
-                    Photos = imageName
-                };
-                return _photoService.CreatePhoto(pht);
-            }
-           
 
-        }
-
-        [HttpPut]
-        public Photo Put([FromBody]Photo photo)
-        {
-            return _photoService.UpdatePhoto(photo);
         }
 
         [HttpDelete("{id}")]

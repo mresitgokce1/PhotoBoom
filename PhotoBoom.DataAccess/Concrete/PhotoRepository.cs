@@ -37,13 +37,5 @@ namespace PhotoBoom.DataAccess.Concrete
             using var photoDbContext = new PhotoBoomDbContext();
             return photoDbContext.Photos.Find(id);
         }
-
-        public Photo UpdatePhoto(Photo photo)
-        {
-            using var photoDbContext = new PhotoBoomDbContext();
-            photoDbContext.Photos.Update(photo);
-            photoDbContext.SaveChanges();
-            return photo;
-        }
     }
 }

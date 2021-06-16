@@ -37,10 +37,5 @@ namespace PhotoBoom.Business.Concrete
         {
             return _photoRepository.GetPhotoById(id);
         }
-
-        public Photo UpdatePhoto(Photo photo)
-        {
-            return _photoRepository.UpdatePhoto(photo);
-        }
     }
 }
